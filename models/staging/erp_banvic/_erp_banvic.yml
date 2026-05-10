@@ -4,8 +4,20 @@ sources:
     description: This is the Banvic ERP system, with data of clients, contributors, accounts and transactions.
     schema: erp_banvic
     tables:
+      - name: agencia_colaboradores
+
+      - name: agencias
+      
+      - name: clientes
+        description: Customers raw source, with personal information of Banvic customers.
+
+      - name: colaboradores
+
+      - name: contas
+
       - name: localidades
         description: Location raw source, with city and state data.
 
-      - name: clientes
-        description: Customers raw source, with personal information of Banvic customers.
+      - name: propostas_de_credito
+
+      - name: transacoes
